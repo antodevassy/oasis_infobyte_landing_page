@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="img/img1.png"
+            alt="Company Logo"
+            id="header-img"
+        />
+    </a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#products" class="nav-link">PRODUCTS</a>
+          <a href="#our-service" class="nav-link">SERVICES</a>
+          <a href="#contact" class="nav-link">CONTACT US</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="img/img2.png" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Bring the Store to your Door</h1>
+          <h2>
+            Groceries at Your Fingertips, Life Simplified.  
+          </h2>
+          <button class="btn" onclick="window.location.href = '#products';">
+            Shop Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Welcome to Nature's Cart, where your shopping experience meets convenience and quality. At Nature's Cart, we are more than just an online grocery store – we are your trusted partner in delivering fresh, flavorful, and wholesome products right at your doorstep.<br><br>
+
+Our journey began with a simple mission: to make grocery shopping effortless and enjoyable for you. With a commitment to sourcing the finest ingredients, supporting local producers, and ensuring a diverse range of products, we strive to meet all your culinary needs in one convenient platform.<br><br>
+
+What sets us apart is our dedication to excellence in every aspect of your shopping journey. From a user-friendly website to a seamless ordering process and prompt delivery, we prioritize your satisfaction at every step. Our team is passionate about curating a selection that not only meets your daily essentials but also introduces you to exciting new discoveries.<br><br>
+
+Transparency and trust are at the core of our values. We believe in providing detailed product information, promoting sustainable practices, and fostering a community that values healthy living. As your go-to online grocery store, we are here to simplify your life and elevate your grocery shopping experience.<br><br>
+          </p>
+          <img src="img/img3.webp" alt="A person booking groceries online" />
+        </div>
+      </section>
+      <section id="products" class="sec-padding">
+        <h3 class="section-heading">PRODUCTS</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="img/img4.png"/>
+            <h3>Carrot</h3>
+            <p>
+              Price: ₹35/kg
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="img/img5.png"/>
+            <h3>Tomato</h3>
+            <p>
+                Price: ₹25/kg
+            </p>
+          </div>
+          <div class="tile">
+            <img src="img/img6.png"/>
+            <h3>Onion</h3>
+            <p>
+              Price: ₹40/kg
+          </div>
+          <div class="tile">
+            <img src="img/img7.png"/>
+            <h3>Apple</h3>
+            <p>
+              Price: ₹200/kg
+            </p>
+          </div>
+          <div class="tile">
+            <img src="img/img8.png"/>
+            <h3>Banana</h3>
+            <p>
+              Price: ₹95/kg
+            </p>
+          </div>
+          <div class="tile">
+            <img src="img/img9.png" alt="photo of Golden Delicious apples" />
+            <h3>Orange</h3>
+            <p>
+              Price: ₹70/kg
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">SERVICES</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver groceries with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your orders as fast as possible, delivery procedure
+                begins as soon as order is placed.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We give our best to make
+                your purchase experience smooth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT US</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more, contact us :</h6>
+          <form
+            id="form"
+            action="https://www.freecodecamp.com/email-submit"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Anto Devassy V.P</a>
+    </footer>
+  </body>
+</html>
